@@ -1,7 +1,5 @@
-﻿//using eTickets.Data.Static;
-using eTickets.Models;
+﻿using eTickets.Models;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -318,6 +316,7 @@ namespace eTickets.Data
                     context.SaveChanges();
                 }
             }
+
         }
     }
 }
